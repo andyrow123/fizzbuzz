@@ -3,6 +3,7 @@ require 'fizzbuzz'
 describe 'fizzbuzz' do
 
   context 'returns "fizz" when passed a multiple of 3' do
+
     it 'returns fizz when given 3' do
       expect(fizzbuzz(3)).to eq 'fizz'
     end
